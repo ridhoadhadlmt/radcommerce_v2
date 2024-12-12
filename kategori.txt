@@ -1,0 +1,10 @@
+kategori
+
+computer: Laptop & Notebook, Desktop Tower, Desktop All In One, Gaming
+computer accessories
+gadget: Tablet, Smartphone
+networking: 
+computer component
+camera: Digital Camera
+wearable device
+storage: Storage Internal, Storage Eksternal

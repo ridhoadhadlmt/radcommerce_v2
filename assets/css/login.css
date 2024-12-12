@@ -1,0 +1,82 @@
+@font-face{
+	font-family: 'Epilogue';
+	src: url('../fonts/Epilogue/Epilogue-Regular.ttf');
+}
+@font-face{
+	font-family: 'OpenSansBold';
+	src: url('../fonts/Epilogue/Epilogue-SemiBold.ttf');
+}
+body{
+	font-family: 'OpenSansBold';
+
+}
+/*.rc-login-img{
+	position: fixed;
+	top: 10%;
+	left: 0;
+	padding: 15px;
+	bottom: 0;
+	height: 100%;
+	width: 50%;
+
+}*/
+.login-img img{
+	width: 100%;
+	object-fit: cover;
+}
+
+.login-form-section .login-form .card{
+	border: none;
+}
+.login-form-section .login-form input{
+	height: 45px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	outline: none;
+	background: #F0F0F0;
+	padding-left: 10px;
+
+}
+.login-form-section .login-form .btn{
+	background-image: linear-gradient(180deg,#10C879,#57BD91);
+	border-color: #10C879;
+	color: #FFF;
+	border-radius: 5px;
+	height: 45px;
+}
+@media (min-width: 576px){
+	.rc-login-area{
+	/* border: 1px solid #000; */
+		/*width: 100vw;
+		height: 100vh;*/
+	}
+	.login-form-section .login-form{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(0%,-50%);
+		width: 35%;
+	}
+}
+@media (max-width: 576px){
+	html{
+
+	}
+	body{
+		background-color: #F0F0F0;
+	}
+	.login-img{
+		display: none;
+	}
+	.login-form-section .login-form{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 95%;
+		padding: 25px;
+		background-color: #FFF;
+		border-radius: 5px;
+
+	}	
+}

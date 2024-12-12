@@ -1,0 +1,81 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7d8ea96eaac2b9916795ba104d16e7a7") format("truetype"),
+url("./flaticon.woff?7d8ea96eaac2b9916795ba104d16e7a7") format("woff"),
+url("./flaticon.woff2?7d8ea96eaac2b9916795ba104d16e7a7") format("woff2"),
+url("./flaticon.eot?7d8ea96eaac2b9916795ba104d16e7a7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7d8ea96eaac2b9916795ba104d16e7a7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "electronic-devices": "\f101",
+    "smartwatch": "\f102",
+    "wifi-router": "\f103",
+    "mouse": "\f104",
+    "drone": "\f105",
+    "camera": "\f106",
+    "server": "\f107",
+    "headphones": "\f108",
+    "graphics-card": "\f109",
+    "computer": "\f10a",
+    "dots": "\f10b",
+    "printer": "\f10c",
+    "flash-disk": "\f10d",
+    "3d-printing-software": "\f10e",
+);
+
+.flaticon-electronic-devices:before {
+    content: map-get($flaticon-map, "electronic-devices");
+}
+.flaticon-smartwatch:before {
+    content: map-get($flaticon-map, "smartwatch");
+}
+.flaticon-wifi-router:before {
+    content: map-get($flaticon-map, "wifi-router");
+}
+.flaticon-mouse:before {
+    content: map-get($flaticon-map, "mouse");
+}
+.flaticon-drone:before {
+    content: map-get($flaticon-map, "drone");
+}
+.flaticon-camera:before {
+    content: map-get($flaticon-map, "camera");
+}
+.flaticon-server:before {
+    content: map-get($flaticon-map, "server");
+}
+.flaticon-headphones:before {
+    content: map-get($flaticon-map, "headphones");
+}
+.flaticon-graphics-card:before {
+    content: map-get($flaticon-map, "graphics-card");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-dots:before {
+    content: map-get($flaticon-map, "dots");
+}
+.flaticon-printer:before {
+    content: map-get($flaticon-map, "printer");
+}
+.flaticon-flash-disk:before {
+    content: map-get($flaticon-map, "flash-disk");
+}
+.flaticon-3d-printing-software:before {
+    content: map-get($flaticon-map, "3d-printing-software");
+}

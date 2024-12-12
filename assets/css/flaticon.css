@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon/flaticon.ttf?7d8ea96eaac2b9916795ba104d16e7a7") format("truetype"),
+url("../fonts/flaticon/flaticon.woff?7d8ea96eaac2b9916795ba104d16e7a7") format("woff"),
+url("../fonts/flaticon/flaticon.woff2?7d8ea96eaac2b9916795ba104d16e7a7") format("woff2"),
+url("../fonts/flaticon/flaticon.eot?7d8ea96eaac2b9916795ba104d16e7a7#iefix") format("embedded-opentype"),
+url("../fonts/flaticon/flaticon.svg?7d8ea96eaac2b9916795ba104d16e7a7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-electronic-devices:before {
+    content: "\f101";
+}
+.flaticon-smartwatch:before {
+    content: "\f102";
+}
+.flaticon-wifi-router:before {
+    content: "\f103";
+}
+.flaticon-mouse:before {
+    content: "\f104";
+}
+.flaticon-drone:before {
+    content: "\f105";
+}
+.flaticon-camera:before {
+    content: "\f106";
+}
+.flaticon-server:before {
+    content: "\f107";
+}
+.flaticon-headphones:before {
+    content: "\f108";
+}
+.flaticon-graphics-card:before {
+    content: "\f109";
+}
+.flaticon-computer:before {
+    content: "\f10a";
+}
+.flaticon-dots:before {
+    content: "\f10b";
+}
+.flaticon-printer:before {
+    content: "\f10c";
+}
+.flaticon-flash-disk:before {
+    content: "\f10d";
+}
+.flaticon-3d-printing-software:before {
+    content: "\f10e";
+}
